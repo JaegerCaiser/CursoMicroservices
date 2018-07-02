@@ -6,4 +6,4 @@ spring:
     config:
       server:
         git:
-          uri: file://home/caiser/Desenvolvimento/config-repo
+          uri: file://${HOME}/Desenvolvimento/config-repo
