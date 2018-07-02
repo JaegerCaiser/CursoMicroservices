@@ -1,5 +1,6 @@
 package br.com.voffice.caiser.cursomicroservices.domain;
 
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -7,7 +8,7 @@ public class DisciplinaDTO {
     private String nome;
     private Integer cargaHoraria;
     private Date dataInicio;
-    private List<String> alunosMatriculados;
+    private List<String> alunosMatriculados = new ArrayList<>();
 
     public String getNome() {
         return nome;
